@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.5-0-10_14)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
 
   (general
     (thickness 1.6)
@@ -29,8 +29,8 @@
     (45 Margin user)
     (46 B.CrtYd user)
     (47 F.CrtYd user)
-    (48 B.Fab user)
-    (49 F.Fab user)
+    (48 B.Fab user hide)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -59,7 +59,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFDFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -291,7 +291,7 @@
       (net 18 UART_TX))
     (pad 3 smd rect (at -9.171 0 90) (size 1.2 0.8) (layers F.Cu F.Paste F.Mask)
       (net 19 UART_RX))
-    (model ${KISYS3DMOD}/RF_Module.3dshapes/ESP32-WROOM-32U.wrl
+    (model ${KIPRJMOD}/additional/TRX2-TIF.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
