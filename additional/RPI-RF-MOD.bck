@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RX8130-CE
+D RTC
+K RTC
+$ENDCMP
+#
+#End Doc Library
