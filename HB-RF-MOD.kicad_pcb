@@ -2016,7 +2016,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5FA5528C)
+  (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5FA95AE6)
     (at 45 44.8 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -2490,11 +2490,11 @@
       )
     )
   )
-  (zone (net 42) (net_name +5V) (layer F.Cu) (tstamp 5FAA98E5) (hatch edge 0.508)
+  (zone (net 42) (net_name +5V) (layer F.Cu) (tstamp 5FA95A6C) (hatch edge 0.508)
     (priority 1)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 37.82 16.18) (xy 37.82 20.58) (xy 29.1 20.6) (xy 29.1 16.2)
@@ -2513,10 +2513,10 @@
       )
     )
   )
-  (zone (net 14) (net_name GND) (layer F.Cu) (tstamp 5FAA98E2) (hatch edge 0.508)
+  (zone (net 14) (net_name GND) (layer F.Cu) (tstamp 5FA95A69) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 22.58 15.28) (xy 59.055 15.28) (xy 59.055 80.555) (xy 22.555 80.555) (xy 22.555 15.28)
@@ -3153,10 +3153,10 @@
       )
     )
   )
-  (zone (net 14) (net_name GND) (layer B.Cu) (tstamp 5FAA98DF) (hatch edge 0.508)
+  (zone (net 14) (net_name GND) (layer B.Cu) (tstamp 5FA95A66) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 59.23 80.83) (xy 22.23 80.83) (xy 22.23 15.255) (xy 59.23 15.255)
