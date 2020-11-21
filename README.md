@@ -12,3 +12,6 @@ Alternative Platine zum RPI-RF-MOD, um das Funkmodul "richtig herum" auf den Ras
 <img src="Images/IMG_1777.jpg" width=300><br/>
 <img src="Images/IMG_1781.jpg" width=300>
 <img src="Images/IMG_1778.jpg" width=300><br/>
+
+**21.11.2020 - Inbetriebnahme**<br/>
+<img src="Images/IMG_1784.jpg" width=600>
